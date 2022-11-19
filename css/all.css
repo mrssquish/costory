@@ -33,7 +33,7 @@ body{
 .mainContainer{
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 170px 800px 300px ;
+    grid-template-rows: 140px 800px 200px ;
     grid-template-areas: 
     "nav"
     "feature"
@@ -127,22 +127,29 @@ nav{
 footer{
     grid-area: footer;
     display: grid;
-    grid-template-columns: .3fr 1fr 1fr 1fr;
+    grid-template-columns: .3fr .4fr .4fr .3fr;
     justify-items:center;
     background-color: blue;
 }
 .footerLogo{
     width:91px;
     height:auto;
-    margin-left:100px;
+  
     margin-top:15px;
 }
 .menuList li, .socialList li, .loginList li{
     color:#FFFA91;
 }
 ul li h4{
-    margin-bottom:15px;
-}
-.menuList{
    
+}
+.menuList, .socialList{
+    display: flex;
+    align-items:flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+#list2{
+    margin-top:60px;padding-left:20px;
 }
