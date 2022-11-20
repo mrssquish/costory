@@ -76,13 +76,14 @@ body{
     radial-gradient(rgba(22,34,77,.4), rgba(22,34,77,.1) 2px, transparent 30px);
     background-size: 550px 550px, 350px 350px , 250px 250px, 172px 187px; 
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-    background-image: rotate(15deg);
-  
-   animation-name: twinkle;
+    background-color:rgb(22,34,77);
+
+    animation-name: twinkle;
     animation-duration:5s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-timing-function:  ease-out;
+
 }
 @keyframes twinkle
 {
