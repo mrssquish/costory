@@ -260,7 +260,7 @@ footer{
     grid-template-columns: .5fr .5fr .5fr .5fr;
     justify-items:center;
     padding-top:20px;
-    background-image:linear-gradient(113deg,rgb(20, 43, 116) 20%,rgb(36, 76, 209),rgb(43, 89, 240) );
+    background-image:linear-gradient(113deg,rgb(20, 43, 116) 25%,rgb(36, 76, 209),rgb(43, 89, 240) );
 
 }
 .footerLogo{
