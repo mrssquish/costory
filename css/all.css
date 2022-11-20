@@ -4,10 +4,6 @@
 ul{
     list-style: none;
 }
-ul li{
-    font-family: "roboto";
-    font-weight: 400;
-}
 ul li a{
     text-decoration: none;
 }
