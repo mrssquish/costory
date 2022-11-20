@@ -20,6 +20,8 @@ h2{
     border-radius: 30px;
     font-family: "roboto";
     font-weight: 400;
+
+
 }
 .button:hover{
     font-weight: 500;
@@ -31,9 +33,19 @@ h2{
     padding:10px 50px 10px 50px;
     border-radius: 10px;
     background-image: linear-gradient(to right, rgb(228,84,136), rgb(231,105,124), rgb(238,148,101), rgb(243,179,84), rgb(246,198,73), rgb(248,206,70));
-    filter: drop-shadow(2px 2px 10px rgba(17, 19, 49,.3)) drop-shadow(0px 0px 2px rgba(17, 19, 49,.7));
+    filter: drop-shadow(2px 2px 10px rgba(36, 76, 209,.4)) drop-shadow(0px 0px 2px rgba(36, 76, 209,.9));
      font-weight: 400;
+  
 }  
+.test{
+    padding:10px 55px 10px 55px;
+    text-decoration: none;
+    color: #420163;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(228,84,136), rgb(231,105,124), rgb(238,148,101), rgb(243,179,84), rgb(246,198,73), rgb(248,206,70));
+    filter: drop-shadow(2px 2px 10px rgba(36, 76, 209,.4)) drop-shadow(0px 0px 2px rgba(36, 76, 209,.9));
+     font-weight: 400;
+}
 
 
 .box{
@@ -44,7 +56,8 @@ h2{
  }
 body{
     padding:0;margin:0;
-    background-color:rgb(22,34,77);
+    
+    background-image: linear-gradient(rgb(25, 38, 88),rgb(17, 27, 61));
     background-image:
     radial-gradient(circle at center,white, rgba(22,34,77,.2) 3px, transparent 20%),
     radial-gradient(white, rgba(22,34,77,.15) 1px, transparent 30%),
@@ -60,7 +73,7 @@ body{
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-timing-function:  ease-out;
-   
+   */
 }
 @keyframes twinkle
 {
@@ -83,7 +96,7 @@ body{
     background-image:
     radial-gradient(circle at center,white, rgba(22,34,77,.2) 4px, transparent 20%),
     radial-gradient(white, rgba(22,34,77,.15) 1px, transparent 30%),
-    radial-gradient(white, rgba(22,34,77,.1) 2px, transparent 70px),
+    radial-gradient(white, rgba(22,34,77,.1) 2.3px, transparent 70px),
     radial-gradient(white, rgba(22,34,77,.09) 1px, transparent 40px),
     radial-gradient(rgba(22,34,77,.4), rgba(22,34,77,.1) 2px, transparent 30px);
     background-size: 550px 550px, 350px 350px , 250px 250px, 172px 187px; 
@@ -109,8 +122,8 @@ body{
     radial-gradient(circle at center,white, rgba(22,34,77,.2) 1px, transparent 20%),
     radial-gradient(white, rgba(22,34,77,.15) 1px, transparent 30%),
     radial-gradient(white, rgba(22,34,77,.1) 2px, transparent 70px),
-    radial-gradient(white, rgba(22,34,77,.2) 1px, transparent 40px),
-    radial-gradient(rgba(22,34,77,.4), rgba(22,34,77,.1) 2px, transparent 30px);
+    radial-gradient(white, rgba(22,34,77,.1) 1px, transparent 40px),
+    radial-gradient(rgba(22,34,77,.4), rgba(22,34,77,.1) 1.5px, transparent 30px);
     background-size: 550px 550px, 350px 350px , 250px 250px, 172px 187px; 
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     }
@@ -140,7 +153,7 @@ nav{
     padding:0px 50px 0px 50px;
     position: sticky;
     z-index: 100;
-    background-color:#263878;
+    background-color:rgb(36, 76, 209);
 
    
    
@@ -180,18 +193,18 @@ nav{
     height:424px; width:auto;
     position: relative;
     grid-column:1/2;
-    filter: drop-shadow(4px 8px 20px rgba(22, 34, 77,.5));
+    filter: drop-shadow(4px 8px 20px rgba(36, 76, 209, 0.6));
 }
 .buttons{
     grid-column: 2/3;
     width:100%;
     display: flex;
-    justify-content:center;
+    justify-content:left;
     font-family: "Roboto";
     z-index: -1;
 }
 .buttons ul li{
-    padding-bottom:50px;
+    padding-bottom:55px;
 }
 .left{
     z-index: -1;
@@ -231,7 +244,8 @@ footer{
     grid-template-columns: .5fr .5fr .5fr .5fr;
     justify-items:center;
     padding-top:20px;
-    background-color:#263878;
+    
+    background-color:rgb(36, 76, 209);
 }
 .footerLogo{
     width:91px;
@@ -239,7 +253,8 @@ footer{
     margin-top:20px;
 }
 .menuList li, .socialList li, .loginList li{
-    color:#FFFA91;
+    color:rgb(248,206,70);
+    font-family: "roboto";
     padding-bottom:5px;
 }
 
@@ -251,9 +266,10 @@ footer{
    
 }
 
-.menuList li:hover{
-    color:rgb(248,206,70);
+.menuList li:hover, .socialList li:hover, .loginList li:hover{
+    color:rgb(228,84,136);
     font-weight: 500;
+
 }
 
 
@@ -262,8 +278,11 @@ footer div{
   
 }
 footer div h3{
-    text-align: left;
-    color:#FFFA91;margin-left:20px;
+    text-align: center;
+    color:rgb(248,206,70);
+    font-weight: 400;
+ c
+    
    
 }
 .menuList, .socialList{
@@ -275,6 +294,12 @@ footer div h3{
 }
 .list1, .list2{
 
-    padding-right:50px;
+    padding-right:30px;
  
+}
+.list1{
+    text-align: right;
+}
+.list2{
+    text-align: left;
 }
